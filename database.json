@@ -1,0 +1,27 @@
+{
+  "test": {
+    "driver": "mysql",
+    "database": "dbmigrate",
+    "user": "root",
+    "password": ""
+  },
+
+  "dev": {
+    "driver": "sqlite3",
+    "filename": "dbmigrate"
+  },
+
+  "prod": {
+    "driver": "mysql",
+    "user": "root",
+    "password": "root"
+  },
+
+  "pg": {
+    "driver": "pg",
+    "user": "postgres",
+    "password": "1234",
+    "host": "localhost",
+    "database": "mydb"
+  }
+}

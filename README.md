@@ -328,10 +328,7 @@ __Arguments__
 * columnNameArray - the array existing column names for each item being inserted
 * valueArray - the array of values to be inserted into the associated column
 * callback(err) - callback that will be invoked once the insert has been completed.
-<<<<<<< HEAD
-=======
 
->>>>>>> 8a478ef5b9fc7d8533212db89fbcb59e65097119
 ### removeIndex(indexName, callback)
 
 Remove an index
